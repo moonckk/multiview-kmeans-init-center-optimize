@@ -1,0 +1,12 @@
+[rmkmc]
+# random_init,kmeans_pp_init
+init_way=random_init
+k=10
+gamma=3
+n_iterations=1
+init_path=./test/test_<$>/init.txt
+cluster_path=./test/test_<$>/cluster.txt
+aa_path=./test/test_<$>/aa.txt
+fs_path=./test/test_<$>/fs.txt
+ind_matrix_path=./test/test_<$>/ind_matrix.txt
+measure_path=./test/test_<$>/measure.txt

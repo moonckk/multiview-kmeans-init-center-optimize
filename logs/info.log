@@ -1,0 +1,20 @@
+2023-03-03 12:04:07,313 — logger — INFO — =================test_2023-03-03-12-03-44==================== - hw_2000_test - <module> - 50 
+2023-03-03 12:04:07,340 — logger — INFO — init ways:kmeans_pp_init - hw_2000_test - <module> - 51 
+2023-03-03 12:04:07,340 — logger — INFO — k:10 - hw_2000_test - <module> - 52 
+2023-03-03 12:04:07,340 — logger — INFO — gamma:3 - hw_2000_test - <module> - 53 
+2023-03-03 12:04:07,340 — logger — INFO — n_iterations:1 - hw_2000_test - <module> - 54 
+2023-03-03 12:04:07,340 — logger — INFO — weight distribution:[0.7119584454020703, 0.019370432715819147, 0.12535156342689674, 0.09104211669978107, 0.030615603856399692, 0.021661837899032945] - hw_2000_test - <module> - 55 
+2023-03-03 12:04:07,341 — logger — INFO — accuracy:0.488 - hw_2000_test - <module> - 56 
+2023-03-03 12:04:07,341 — logger — INFO — puri:0.4975 - hw_2000_test - <module> - 57 
+2023-03-03 12:04:07,341 — logger — INFO — nmi:0.5230531419107658 - hw_2000_test - <module> - 58 
+2023-03-03 12:04:07,341 — logger — INFO — ===================================================== - hw_2000_test - <module> - 59 
+2023-03-03 12:05:11,834 — logger — INFO — =================test_2023-03-03-12-04-56==================== - hw_2000_test - <module> - 50 
+2023-03-03 12:05:11,834 — logger — INFO — init ways:random_init - hw_2000_test - <module> - 51 
+2023-03-03 12:05:11,834 — logger — INFO — k:10 - hw_2000_test - <module> - 52 
+2023-03-03 12:05:11,834 — logger — INFO — gamma:3 - hw_2000_test - <module> - 53 
+2023-03-03 12:05:11,834 — logger — INFO — n_iterations:1 - hw_2000_test - <module> - 54 
+2023-03-03 12:05:11,834 — logger — INFO — weight distribution:[0.7196425536156932, 0.018559331588721986, 0.12774342328849608, 0.09304682412397983, 0.030473730273126966, 0.010534137109982036] - hw_2000_test - <module> - 55 
+2023-03-03 12:05:11,834 — logger — INFO — accuracy:0.2375 - hw_2000_test - <module> - 56 
+2023-03-03 12:05:11,834 — logger — INFO — puri:0.253 - hw_2000_test - <module> - 57 
+2023-03-03 12:05:11,834 — logger — INFO — nmi:0.36593140838346916 - hw_2000_test - <module> - 58 
+2023-03-03 12:05:11,834 — logger — INFO — ===================================================== - hw_2000_test - <module> - 59 
