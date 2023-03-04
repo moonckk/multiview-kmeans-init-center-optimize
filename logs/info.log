@@ -1,20 +1,10 @@
-2023-03-03 12:04:07,313 — logger — INFO — =================test_2023-03-03-12-03-44==================== - hw_2000_test - <module> - 50 
-2023-03-03 12:04:07,340 — logger — INFO — init ways:kmeans_pp_init - hw_2000_test - <module> - 51 
-2023-03-03 12:04:07,340 — logger — INFO — k:10 - hw_2000_test - <module> - 52 
-2023-03-03 12:04:07,340 — logger — INFO — gamma:3 - hw_2000_test - <module> - 53 
-2023-03-03 12:04:07,340 — logger — INFO — n_iterations:1 - hw_2000_test - <module> - 54 
-2023-03-03 12:04:07,340 — logger — INFO — weight distribution:[0.7119584454020703, 0.019370432715819147, 0.12535156342689674, 0.09104211669978107, 0.030615603856399692, 0.021661837899032945] - hw_2000_test - <module> - 55 
-2023-03-03 12:04:07,341 — logger — INFO — accuracy:0.488 - hw_2000_test - <module> - 56 
-2023-03-03 12:04:07,341 — logger — INFO — puri:0.4975 - hw_2000_test - <module> - 57 
-2023-03-03 12:04:07,341 — logger — INFO — nmi:0.5230531419107658 - hw_2000_test - <module> - 58 
-2023-03-03 12:04:07,341 — logger — INFO — ===================================================== - hw_2000_test - <module> - 59 
-2023-03-03 12:05:11,834 — logger — INFO — =================test_2023-03-03-12-04-56==================== - hw_2000_test - <module> - 50 
-2023-03-03 12:05:11,834 — logger — INFO — init ways:random_init - hw_2000_test - <module> - 51 
-2023-03-03 12:05:11,834 — logger — INFO — k:10 - hw_2000_test - <module> - 52 
-2023-03-03 12:05:11,834 — logger — INFO — gamma:3 - hw_2000_test - <module> - 53 
-2023-03-03 12:05:11,834 — logger — INFO — n_iterations:1 - hw_2000_test - <module> - 54 
-2023-03-03 12:05:11,834 — logger — INFO — weight distribution:[0.7196425536156932, 0.018559331588721986, 0.12774342328849608, 0.09304682412397983, 0.030473730273126966, 0.010534137109982036] - hw_2000_test - <module> - 55 
-2023-03-03 12:05:11,834 — logger — INFO — accuracy:0.2375 - hw_2000_test - <module> - 56 
-2023-03-03 12:05:11,834 — logger — INFO — puri:0.253 - hw_2000_test - <module> - 57 
-2023-03-03 12:05:11,834 — logger — INFO — nmi:0.36593140838346916 - hw_2000_test - <module> - 58 
-2023-03-03 12:05:11,834 — logger — INFO — ===================================================== - hw_2000_test - <module> - 59 
+hw_2000_test - <module> - =================test_2023-03-04-12-54-36====================
+hw_2000_test - <module> - init ways:kmeans_pp_init
+hw_2000_test - <module> - k:10
+hw_2000_test - <module> - gamma:3
+hw_2000_test - <module> - n_iterations:3
+hw_2000_test - <module> - weight distribution:[0.714092898253189, 0.019052691906839076, 0.12733572109241828, 0.09209715149196855, 0.0300463059417486, 0.01737523131383635]
+hw_2000_test - <module> - accuracy:0.4825
+hw_2000_test - <module> - puri:0.574
+hw_2000_test - <module> - nmi:0.6152640152168982
+hw_2000_test - <module> - =====================================================

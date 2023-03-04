@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand />
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="129bf406-ebd4-42e0-80e8-ad34678785ec" name="Default Changelist" comment="搭建框架">
+      <change beforePath="$PROJECT_DIR$/cfg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cfg.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rmkmc_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/rmkmc_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_2023-03-03-12-03-44/cluster.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_2023-03-03-12-03-44/init.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_2023-03-03-12-04-56/cluster.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_2023-03-03-12-04-56/init.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="e9dcff59-8d93-4437-9c15-853212018b7c" />
+  <component name="ProjectId" id="2MTzW0IVO90glrFApyQNhtdi9vy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Genetic-Algorithm-Kmeans" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project2\遗传算法改进多视图聚类\log" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project2\遗传算法改进多视图聚类" />
+      <recent name="E:\project2\遗传算法改进多视图聚类\data" />
+      <recent name="E:\project2\遗传算法改进多视图聚类\hw" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="hw_2000_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="multiview-kmeans-init-center-optimize" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw_2000_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.hw_2000_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="129bf406-ebd4-42e0-80e8-ad34678785ec" name="Default Changelist" comment="" />
+      <created>1677806387536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677806387536</updated>
+      <workItem from="1677806388603" duration="10093000" />
+      <workItem from="1677816690302" duration="2544000" />
+      <workItem from="1677901289097" duration="172000" />
+      <workItem from="1677901476492" duration="1272000" />
+      <workItem from="1677905502084" duration="1432000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1677820131092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677820131092</updated>
+    </task>
+    <task id="LOCAL-00002" summary="搭建框架">
+      <created>1677820183314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677820183314</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:E:/project2/multiview-kmeans-init-center-optimize/data/hw" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="搭建框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建框架" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="309" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1677901713486">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state x="309" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.912@0.0.1707.912" timestamp="1677901713486" />
+    <state x="590" y="257" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677814253579">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state x="590" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.912@0.0.1707.912" timestamp="1677814253579" />
+    <state x="609" y="159" key="#xdebugger.evaluate" timestamp="1677811914857">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state x="609" y="159" key="#xdebugger.evaluate/0.0.1707.912@0.0.1707.912" timestamp="1677811914857" />
+    <state width="1310" height="466" key="DebuggerActiveHint" timestamp="1677812240957">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1310" height="466" key="DebuggerActiveHint/0.0.1707.912@0.0.1707.912" timestamp="1677812240957" />
+    <state x="634" y="212" key="FileChooserDialogImpl" timestamp="1677908059596">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state x="634" y="212" key="FileChooserDialogImpl/0.0.1707.912@0.0.1707.912" timestamp="1677908059596" />
+    <state width="1663" height="357" key="GridCell.Tab.0.bottom" timestamp="1677905756683">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1663" height="357" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1677905756683" />
+    <state width="1663" height="357" key="GridCell.Tab.0.center" timestamp="1677905756672">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1663" height="357" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1677905756672" />
+    <state width="1663" height="357" key="GridCell.Tab.0.left" timestamp="1677905756672">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1663" height="357" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1677905756672" />
+    <state width="1663" height="357" key="GridCell.Tab.0.right" timestamp="1677905756672">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1663" height="357" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1677905756672" />
+    <state width="1663" height="377" key="GridCell.Tab.1.bottom" timestamp="1677816580814">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1663" height="377" key="GridCell.Tab.1.bottom/0.0.1707.912@0.0.1707.912" timestamp="1677816580814" />
+    <state width="1663" height="377" key="GridCell.Tab.1.center" timestamp="1677816580814">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1663" height="377" key="GridCell.Tab.1.center/0.0.1707.912@0.0.1707.912" timestamp="1677816580814" />
+    <state width="1663" height="377" key="GridCell.Tab.1.left" timestamp="1677816580814">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1663" height="377" key="GridCell.Tab.1.left/0.0.1707.912@0.0.1707.912" timestamp="1677816580814" />
+    <state width="1663" height="377" key="GridCell.Tab.1.right" timestamp="1677816580814">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="1663" height="377" key="GridCell.Tab.1.right/0.0.1707.912@0.0.1707.912" timestamp="1677816580814" />
+    <state x="446" y="190" key="Vcs.Push.Dialog.v2" timestamp="1677820188199">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state x="446" y="190" key="Vcs.Push.Dialog.v2/0.0.1707.912@0.0.1707.912" timestamp="1677820188199" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$hw_2000_test.coverage" NAME="hw_2000_test Coverage Results" MODIFIED="1677905674852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/$hw_2000_test.coverage" NAME="hw_2000_test Coverage Results" MODIFIED="1677816294214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

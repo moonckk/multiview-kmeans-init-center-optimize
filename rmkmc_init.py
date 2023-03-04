@@ -8,7 +8,7 @@
 import numpy as np
 import pandas as pd
 
-
+# 随机初始化
 def random_init(Xs, k, gamma, n_iter, init_path):
     n_samples = Xs[0].shape[0]
     labels = np.random.randint(0, k, size=n_samples)
@@ -48,3 +48,8 @@ def kmeans_pp(X, k):
         next_cent = np.random.choice(n_samples, 1, min_dist)
         centroids.append(X[next_cent])
     return np.array(centroids)
+
+# 遗传算法优化初始化中心点
+def ga_init(Xs, k, gamma, n_iter, init_path):
+    popsize = 50  # 种群的大小
+

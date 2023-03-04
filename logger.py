@@ -9,8 +9,9 @@ import os
 from logging.handlers import TimedRotatingFileHandler
 
 path = os.path.split(os.path.abspath(__file__))[0]
-FORMATTER = logging.Formatter("%(asctime)s — %(name)s — %(levelname)s — %(message)s "
-                              "- %(module)s - %(funcName)s - %(lineno)d ")
+# FORMATTER = logging.Formatter("%(asctime)s — %(name)s — %(levelname)s — %(message)s "
+#                               "- %(module)s - %(funcName)s - %(lineno)d ")
+FORMATTER = logging.Formatter("%(module)s - %(funcName)s - %(message)s")
 LOG_FILE = path + "./logs/info.log"
 
 
