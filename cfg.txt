@@ -1,6 +1,6 @@
 [rmkmc]
-# random_init,kmeans_pp_init
-init_way=kmeans_pp_init
+# random_init,kmeans_pp_init,ga_init
+init_way=ga_init
 k=10
 gamma=3
 n_iterations=3

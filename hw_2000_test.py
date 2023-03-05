@@ -35,6 +35,8 @@ if __name__ == '__main__':
         random_init(Xs, k, gamma, n_iterations, init_path)
     elif init_way == 'kmeans_pp_init':
         kmeans_pp_init(Xs, k, gamma, n_iterations, init_path)
+    elif init_way == 'ga_init':
+        ga_init(Xs, k, gamma, n_iterations, init_path)
     G = onehot(np.array(pd.read_csv(init_path)), k)
 
     # 运行rmkmc

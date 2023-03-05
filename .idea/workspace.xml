@@ -5,15 +5,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129bf406-ebd4-42e0-80e8-ad34678785ec" name="Default Changelist" comment="搭建框架">
+    <list default="true" id="129bf406-ebd4-42e0-80e8-ad34678785ec" name="Default Changelist" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cfg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cfg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_2000_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_2000_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rmkmc_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/rmkmc_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_2023-03-03-12-03-44/cluster.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_2023-03-03-12-03-44/init.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_2023-03-03-12-04-56/cluster.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_2023-03-03-12-04-56/init.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +31,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="e9dcff59-8d93-4437-9c15-853212018b7c" />
+  <component name="JupyterTrust" id="de1c5e5d-b22c-4051-a3db-35d681e0bf3c" />
   <component name="ProjectId" id="2MTzW0IVO90glrFApyQNhtdi9vy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -48,16 +44,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Genetic-Algorithm-Kmeans" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project2\遗传算法改进多视图聚类\log" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\project2\遗传算法改进多视图聚类" />
       <recent name="E:\project2\遗传算法改进多视图聚类\data" />
       <recent name="E:\project2\遗传算法改进多视图聚类\hw" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project2\遗传算法改进多视图聚类\log" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.hw_2000_test">
     <configuration name="hw_2000_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="multiview-kmeans-init-center-optimize" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,9 +76,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="multiview-kmeans-init-center-optimize" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmeans.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rmkmc_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="multiview-kmeans-init-center-optimize" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rmkmc_init.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.hw_2000_test" />
+        <item itemvalue="Python.rmkmc_init" />
+        <item itemvalue="Python.kmeans" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +140,9 @@
       <workItem from="1677816690302" duration="2544000" />
       <workItem from="1677901289097" duration="172000" />
       <workItem from="1677901476492" duration="1272000" />
-      <workItem from="1677905502084" duration="1432000" />
+      <workItem from="1677905502084" duration="1631000" />
+      <workItem from="1677985661744" duration="3370000" />
+      <workItem from="1677995012017" duration="9939000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1677820131092</created>
@@ -114,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677820183314</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix">
+      <created>1677908378308</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677908378308</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +216,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="搭建框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="搭建框架" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="309" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1677901713486">
@@ -176,57 +228,63 @@
       <screen x="0" y="0" width="1707" height="912" />
     </state>
     <state x="590" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.912@0.0.1707.912" timestamp="1677814253579" />
-    <state x="609" y="159" key="#xdebugger.evaluate" timestamp="1677811914857">
+    <state x="737" y="317" width="855" height="595" key="#xdebugger.evaluate" timestamp="1678004957376">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state x="609" y="159" key="#xdebugger.evaluate/0.0.1707.912@0.0.1707.912" timestamp="1677811914857" />
-    <state width="1310" height="466" key="DebuggerActiveHint" timestamp="1677812240957">
+    <state x="737" y="317" width="855" height="595" key="#xdebugger.evaluate/0.0.1707.912@0.0.1707.912" timestamp="1678004957376" />
+    <state width="1310" height="232" key="DebuggerActiveHint" timestamp="1678004974945">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1310" height="466" key="DebuggerActiveHint/0.0.1707.912@0.0.1707.912" timestamp="1677812240957" />
+    <state width="1310" height="232" key="DebuggerActiveHint/0.0.1707.912@0.0.1707.912" timestamp="1678004974945" />
     <state x="634" y="212" key="FileChooserDialogImpl" timestamp="1677908059596">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
     <state x="634" y="212" key="FileChooserDialogImpl/0.0.1707.912@0.0.1707.912" timestamp="1677908059596" />
-    <state width="1663" height="357" key="GridCell.Tab.0.bottom" timestamp="1677905756683">
+    <state width="1663" height="326" key="GridCell.Tab.0.bottom" timestamp="1678005001480">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="357" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1677905756683" />
-    <state width="1663" height="357" key="GridCell.Tab.0.center" timestamp="1677905756672">
+    <state width="1663" height="326" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
+    <state width="1663" height="326" key="GridCell.Tab.0.center" timestamp="1678005001480">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="357" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1677905756672" />
-    <state width="1663" height="357" key="GridCell.Tab.0.left" timestamp="1677905756672">
+    <state width="1663" height="326" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
+    <state width="1663" height="326" key="GridCell.Tab.0.left" timestamp="1678005001480">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="357" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1677905756672" />
-    <state width="1663" height="357" key="GridCell.Tab.0.right" timestamp="1677905756672">
+    <state width="1663" height="326" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
+    <state width="1663" height="326" key="GridCell.Tab.0.right" timestamp="1678005001480">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="357" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1677905756672" />
-    <state width="1663" height="377" key="GridCell.Tab.1.bottom" timestamp="1677816580814">
+    <state width="1663" height="326" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
+    <state width="1663" height="326" key="GridCell.Tab.1.bottom" timestamp="1678005001480">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="377" key="GridCell.Tab.1.bottom/0.0.1707.912@0.0.1707.912" timestamp="1677816580814" />
-    <state width="1663" height="377" key="GridCell.Tab.1.center" timestamp="1677816580814">
+    <state width="1663" height="326" key="GridCell.Tab.1.bottom/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
+    <state width="1663" height="326" key="GridCell.Tab.1.center" timestamp="1678005001480">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="377" key="GridCell.Tab.1.center/0.0.1707.912@0.0.1707.912" timestamp="1677816580814" />
-    <state width="1663" height="377" key="GridCell.Tab.1.left" timestamp="1677816580814">
+    <state width="1663" height="326" key="GridCell.Tab.1.center/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
+    <state width="1663" height="326" key="GridCell.Tab.1.left" timestamp="1678005001480">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="377" key="GridCell.Tab.1.left/0.0.1707.912@0.0.1707.912" timestamp="1677816580814" />
-    <state width="1663" height="377" key="GridCell.Tab.1.right" timestamp="1677816580814">
+    <state width="1663" height="326" key="GridCell.Tab.1.left/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
+    <state width="1663" height="326" key="GridCell.Tab.1.right" timestamp="1678005001480">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="377" key="GridCell.Tab.1.right/0.0.1707.912@0.0.1707.912" timestamp="1677816580814" />
+    <state width="1663" height="326" key="GridCell.Tab.1.right/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
     <state x="446" y="190" key="Vcs.Push.Dialog.v2" timestamp="1677820188199">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
     <state x="446" y="190" key="Vcs.Push.Dialog.v2/0.0.1707.912@0.0.1707.912" timestamp="1677820188199" />
+    <state width="860" height="463" key="XDebugger.FullValuePopup" timestamp="1678004957273">
+      <screen x="0" y="0" width="1707" height="912" />
+    </state>
+    <state width="860" height="463" key="XDebugger.FullValuePopup/0.0.1707.912@0.0.1707.912" timestamp="1678004957273" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$hw_2000_test.coverage" NAME="hw_2000_test Coverage Results" MODIFIED="1677905674852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$hw_2000_test.coverage" NAME="hw_2000_test Coverage Results" MODIFIED="1678004504629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$rmkmc_init.coverage" NAME="rmkmc_init Coverage Results" MODIFIED="1678004499461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1678003478519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$hw_2000_test.coverage" NAME="hw_2000_test Coverage Results" MODIFIED="1677816294214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
