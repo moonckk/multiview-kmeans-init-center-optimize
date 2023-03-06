@@ -5,11 +5,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="129bf406-ebd4-42e0-80e8-ad34678785ec" name="Default Changelist" comment="fix">
+    <list default="true" id="129bf406-ebd4-42e0-80e8-ad34678785ec" name="Default Changelist" comment="遗传算法, 运行速度非常慢">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cfg.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cfg.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_2000_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_2000_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cfg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_2000_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rmkmc.py" beforeDir="false" afterPath="$PROJECT_DIR$/rmkmc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rmkmc_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/rmkmc_init.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_2023-03-04-12-54-36/cluster.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_2023-03-04-12-54-36/init.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_2023-03-05-16-21-46/init.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +37,11 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="de1c5e5d-b22c-4051-a3db-35d681e0bf3c" />
+  <component name="JupyterTrust" id="a7e4333c-9c1a-4439-a293-d4f43a1f1c3c" />
   <component name="ProjectId" id="2MTzW0IVO90glrFApyQNhtdi9vy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -41,20 +49,24 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Genetic-Algorithm-Kmeans" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project2\multiview-kmeans-init-center-optimize\data" />
+      <recent name="E:\project2\multiview-kmeans-init-center-optimize" />
+      <recent name="E:\project2\multiview-kmeans-init-center-optimize\data\webkb" />
+      <recent name="E:\project2\遗传算法改进多视图聚类\log" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\project2\multiview-kmeans-init-center-optimize\data" />
       <recent name="E:\project2\遗传算法改进多视图聚类" />
       <recent name="E:\project2\遗传算法改进多视图聚类\data" />
       <recent name="E:\project2\遗传算法改进多视图聚类\hw" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project2\遗传算法改进多视图聚类\log" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.hw_2000_test">
-    <configuration name="hw_2000_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.run_caltech101_1474">
+    <configuration name="run_caltech101_1474" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="multiview-kmeans-init-center-optimize" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,7 +79,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw_2000_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_caltech101_1474.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="run_coil20_1440 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="multiview-kmeans-init-center-optimize" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -89,7 +101,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmeans.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_coil20_1440.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -98,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rmkmc_init" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="run_hw_2000" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="multiview-kmeans-init-center-optimize" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -111,7 +123,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rmkmc_init.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_hw_2000.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_mnist4_4000" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="multiview-kmeans-init-center-optimize" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_mnist4_4000.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_webkb_1051" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="multiview-kmeans-init-center-optimize" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_webkb_1051.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_coil20_1440" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="multiview-kmeans-init-center-optimize" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\project2\multiview-kmeans-init-center-optimize\test_coil20_1440.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,9 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hw_2000_test" />
-        <item itemvalue="Python.rmkmc_init" />
-        <item itemvalue="Python.kmeans" />
+        <item itemvalue="Python.run_caltech101_1474" />
+        <item itemvalue="Python.run_mnist4_4000" />
+        <item itemvalue="Python.run_webkb_1051" />
+        <item itemvalue="Python.run_hw_2000" />
+        <item itemvalue="Python.run_coil20_1440 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +222,8 @@
       <workItem from="1677901476492" duration="1272000" />
       <workItem from="1677905502084" duration="1631000" />
       <workItem from="1677985661744" duration="3370000" />
-      <workItem from="1677995012017" duration="9939000" />
+      <workItem from="1677995012017" duration="13740000" />
+      <workItem from="1678064395226" duration="7697000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1677820131092</created>
@@ -165,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677908378308</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="遗传算法, 运行速度非常慢">
+      <created>1678005071474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678005071474</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,74 +305,102 @@
     <MESSAGE value="init" />
     <MESSAGE value="搭建框架" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="遗传算法, 运行速度非常慢" />
+    <option name="LAST_COMMIT_MESSAGE" value="遗传算法, 运行速度非常慢" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="309" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1677901713486">
+    <state x="309" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1678068590778">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state x="309" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.912@0.0.1707.912" timestamp="1677901713486" />
-    <state x="590" y="257" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1677814253579">
+    <state x="309" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1707.912@0.0.1707.912" timestamp="1678068590778" />
+    <state x="590" y="257" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1678006647425">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state x="590" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.912@0.0.1707.912" timestamp="1677814253579" />
-    <state x="737" y="317" width="855" height="595" key="#xdebugger.evaluate" timestamp="1678004957376">
+    <state x="590" y="257" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.912@0.0.1707.912" timestamp="1678006647425" />
+    <state x="48" y="171" width="855" height="649" key="#xdebugger.evaluate" timestamp="1678066708606">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state x="737" y="317" width="855" height="595" key="#xdebugger.evaluate/0.0.1707.912@0.0.1707.912" timestamp="1678004957376" />
-    <state width="1310" height="232" key="DebuggerActiveHint" timestamp="1678004974945">
+    <state x="48" y="171" width="855" height="649" key="#xdebugger.evaluate/0.0.1707.912@0.0.1707.912" timestamp="1678066708606" />
+    <state width="1310" height="232" key="DebuggerActiveHint" timestamp="1678066630991">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1310" height="232" key="DebuggerActiveHint/0.0.1707.912@0.0.1707.912" timestamp="1678004974945" />
+    <state width="1310" height="232" key="DebuggerActiveHint/0.0.1707.912@0.0.1707.912" timestamp="1678066630991" />
     <state x="634" y="212" key="FileChooserDialogImpl" timestamp="1677908059596">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
     <state x="634" y="212" key="FileChooserDialogImpl/0.0.1707.912@0.0.1707.912" timestamp="1677908059596" />
-    <state width="1663" height="326" key="GridCell.Tab.0.bottom" timestamp="1678005001480">
+    <state width="1663" height="357" key="GridCell.Tab.0.bottom" timestamp="1678072102079">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="326" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
-    <state width="1663" height="326" key="GridCell.Tab.0.center" timestamp="1678005001480">
+    <state width="1663" height="357" key="GridCell.Tab.0.bottom/0.0.1707.912@0.0.1707.912" timestamp="1678072102079" />
+    <state width="1663" height="357" key="GridCell.Tab.0.center" timestamp="1678072102079">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="326" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
-    <state width="1663" height="326" key="GridCell.Tab.0.left" timestamp="1678005001480">
+    <state width="1663" height="357" key="GridCell.Tab.0.center/0.0.1707.912@0.0.1707.912" timestamp="1678072102079" />
+    <state width="1663" height="357" key="GridCell.Tab.0.left" timestamp="1678072102079">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="326" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
-    <state width="1663" height="326" key="GridCell.Tab.0.right" timestamp="1678005001480">
+    <state width="1663" height="357" key="GridCell.Tab.0.left/0.0.1707.912@0.0.1707.912" timestamp="1678072102079" />
+    <state width="1663" height="357" key="GridCell.Tab.0.right" timestamp="1678072102079">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="326" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
-    <state width="1663" height="326" key="GridCell.Tab.1.bottom" timestamp="1678005001480">
+    <state width="1663" height="357" key="GridCell.Tab.0.right/0.0.1707.912@0.0.1707.912" timestamp="1678072102079" />
+    <state width="1663" height="449" key="GridCell.Tab.1.bottom" timestamp="1678066724090">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="326" key="GridCell.Tab.1.bottom/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
-    <state width="1663" height="326" key="GridCell.Tab.1.center" timestamp="1678005001480">
+    <state width="1663" height="449" key="GridCell.Tab.1.bottom/0.0.1707.912@0.0.1707.912" timestamp="1678066724090" />
+    <state width="1663" height="449" key="GridCell.Tab.1.center" timestamp="1678066724090">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="326" key="GridCell.Tab.1.center/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
-    <state width="1663" height="326" key="GridCell.Tab.1.left" timestamp="1678005001480">
+    <state width="1663" height="449" key="GridCell.Tab.1.center/0.0.1707.912@0.0.1707.912" timestamp="1678066724090" />
+    <state width="1663" height="449" key="GridCell.Tab.1.left" timestamp="1678066724090">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="326" key="GridCell.Tab.1.left/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
-    <state width="1663" height="326" key="GridCell.Tab.1.right" timestamp="1678005001480">
+    <state width="1663" height="449" key="GridCell.Tab.1.left/0.0.1707.912@0.0.1707.912" timestamp="1678066724090" />
+    <state width="1663" height="449" key="GridCell.Tab.1.right" timestamp="1678066724090">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="1663" height="326" key="GridCell.Tab.1.right/0.0.1707.912@0.0.1707.912" timestamp="1678005001480" />
+    <state width="1663" height="449" key="GridCell.Tab.1.right/0.0.1707.912@0.0.1707.912" timestamp="1678066724090" />
     <state x="446" y="190" key="Vcs.Push.Dialog.v2" timestamp="1677820188199">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
     <state x="446" y="190" key="Vcs.Push.Dialog.v2/0.0.1707.912@0.0.1707.912" timestamp="1677820188199" />
-    <state width="860" height="463" key="XDebugger.FullValuePopup" timestamp="1678004957273">
+    <state width="860" height="463" key="XDebugger.FullValuePopup" timestamp="1678066311143">
       <screen x="0" y="0" width="1707" height="912" />
     </state>
-    <state width="860" height="463" key="XDebugger.FullValuePopup/0.0.1707.912@0.0.1707.912" timestamp="1678004957273" />
+    <state width="860" height="463" key="XDebugger.FullValuePopup/0.0.1707.912@0.0.1707.912" timestamp="1678066311143" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tools/mat2csv.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="my_labels[0]" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$hw_2000_test.coverage" NAME="hw_2000_test Coverage Results" MODIFIED="1678004504629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$rmkmc_init.coverage" NAME="rmkmc_init Coverage Results" MODIFIED="1678004499461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1678003478519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$mat2csv.coverage" NAME="mat2csv Coverage Results" MODIFIED="1678006531318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$hw_2000_test.coverage" NAME="hw_2000_test Coverage Results" MODIFIED="1678066253677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$run_webkb_1051.coverage" NAME="run_webkb_1051 Coverage Results" MODIFIED="1678070964457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$run_mnist4_4000.coverage" NAME="run_mnist4_4000 Coverage Results" MODIFIED="1678071330067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$run_coil20_1440__1_.coverage" NAME="run_coil20_1440 (1) Coverage Results" MODIFIED="1678070106442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/$hw_2000_test.coverage" NAME="hw_2000_test Coverage Results" MODIFIED="1677816294214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$run_caltech101_1474.coverage" NAME="run_caltech101_1474 Coverage Results" MODIFIED="1678072102063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$run_hw_2000.coverage" NAME="run_hw_2000 Coverage Results" MODIFIED="1678070535042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$pytest_in_test_coil20_1440_py.coverage" NAME="pytest in test_coil20_1440.py Coverage Results" MODIFIED="1678068574925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$webkb_1051_test.coverage" NAME="webkb_1051_test Coverage Results" MODIFIED="1678064610287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$coil__test.coverage" NAME="coil_1440_test Coverage Results" MODIFIED="1678065487180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$rmkmc_init.coverage" NAME="rmkmc_init Coverage Results" MODIFIED="1678004499461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$rmkmc.coverage" NAME="rmkmc Coverage Results" MODIFIED="1678069676100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1678003478519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/multiview_kmeans_init_center_optimize$coil_1440_test__1_.coverage" NAME="coil_1440_test (1) Coverage Results" MODIFIED="1678066698015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

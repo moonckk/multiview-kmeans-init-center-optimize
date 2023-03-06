@@ -1,0 +1,8 @@
+init ways:kmeans_pp_init
+k:20
+gamma:3
+n_iterations:3
+weight distribution:[0.33692222771938857, 0.40600000771167005, 0.25707776456894127]
+accuracy:0.7895833333333333
+purity:0.85
+nmi:0.9432854809847044

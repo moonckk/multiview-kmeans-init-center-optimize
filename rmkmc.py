@@ -53,9 +53,12 @@ def rmkmc(Xs, k, gamma, n_iter, G):
 
         # Update the centroids matrix F for each view.
         for v in range(n_views):
-            Ftrans = Xs[v].T @ tildeDs[v] @ G @ np.linalg.inv(G.T @ tildeDs[v] @ G)
-            Fs[v] = Ftrans.T
-
+            try:
+                Ftrans = Xs[v].T @ tildeDs[v] @ G @ np.linalg.inv(G.T @ tildeDs[v] @ G)
+                Fs[v] = Ftrans.T
+            except Exception as e:
+                print(e)
+                continue
         # Update G by finding the best label for each data point
         labels = []
         for j in range(n_samples):

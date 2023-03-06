@@ -7,21 +7,16 @@
 import random
 
 import numpy as np
-import pandas as pd
 
 # 随机初始化
 from codec import code
-
-from sklearn.cluster import KMeans
-
 from kmeans import kmeans
 
 
 def random_init(Xs, k, gamma, n_iter, init_path):
     n_samples = Xs[0].shape[0]
     labels = np.random.randint(0, k, size=n_samples)
-    df = pd.DataFrame(labels)
-    df.to_csv(init_path, sep='\t', index=0)  # 不保留列名和行索引
+    return labels
 
 
 # kmeans++初始化
@@ -43,8 +38,7 @@ def kmeans_pp_init(Xs, k, gamma, n_iter, init_path):
                 cur_min = cur_sum
                 cur_ind = m
         labels.append(cur_ind)  # label存储和当前样本点最匹配的簇(cur_sum最小的簇)
-    df = pd.DataFrame(labels)
-    df.to_csv(init_path, sep='\t', index=0)  # 不保留列名和行索引
+    return labels
 
 
 def kmeans_pp(X, k):
@@ -76,8 +70,7 @@ def ga_init(Xs, k, gamma, n_iter, init_path):
                 cur_min = cur_sum
                 cur_ind = m
         labels.append(cur_ind)  # label存储和当前样本点最匹配的簇(cur_sum最小的簇)
-    df = pd.DataFrame(labels)
-    df.to_csv(init_path, sep='\t', index=0, header=0)  # 不保留列名和行索引
+    return labels
 
 
 def ga(X, k):
@@ -123,7 +116,7 @@ def mybin(floatingPoint):
 
 def calobjvalue(data, pop, factor_num, k):  # 计算目标函数值
     objvalue = []
-    for i in pop:   # pop是遗传样本数量
+    for i in pop:  # pop是遗传样本数量
         objvalue.append(main(data, split_dec(i), k))
     return objvalue  # 目标函数值objvalue[m] 与个体基因 pop[m] 对应
 
@@ -146,7 +139,6 @@ def split_dec(code, code_len=64):
             temp.append(mydec(okl[l * code_len:(l + 1) * code_len]))
         temp.append(mydec(okl[(n - 1) * code_len:]))
     else:
-
         temp.apppend(mydec(okl))
     return temp
 

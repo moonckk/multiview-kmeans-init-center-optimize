@@ -1,0 +1,8 @@
+init ways:random_init
+k:2
+gamma:3
+n_iterations:3
+weight distribution:[0.49652650425138045, 0.5034734957486195]
+accuracy:0.8801141769743102
+purity:0.8801141769743102
+nmi:0.442471695557504
